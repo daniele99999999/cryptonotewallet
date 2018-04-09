@@ -1,0 +1,3 @@
+[submodule "eternetCoin"]
+	path = eternetCoin
+	url = https://github.com/daniele99999999/eternetCoin.git

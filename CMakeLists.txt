@@ -16,7 +16,8 @@ include_directories(${CMAKE_BINARY_DIR}
     cryptonote/include
     cryptonote/src)
 
-find_package(Qt5Gui REQUIRED)
+#find_package(Qt5Gui REQUIRED)
+set (CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.10.1/")
 find_package(Qt5Widgets REQUIRED)
 
 set(Boost_USE_STATIC_LIBS ON)

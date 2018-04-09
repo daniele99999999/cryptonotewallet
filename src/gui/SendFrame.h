@@ -7,6 +7,7 @@
 #include <QFrame>
 
 #include <IWallet.h>
+#include "TransactionsModel.h"
 
 namespace Ui {
   class SendFrame;
